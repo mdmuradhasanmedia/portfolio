@@ -329,9 +329,10 @@
 					</div>
 				</div>
 
+			
 				<div class="col-md-8">
 					<!-- Contact Form -->
-					<form id="contact-form" class="contact-form mt-6" method="post" action="/form/contact.php">
+					<form id="contact-form" class="contact-form mt-6" method="post" action="form/contact.php">
 						
 						<div class="messages"></div>
 						
@@ -348,6 +349,14 @@
 								<!-- Email input -->
 								<div class="form-group">
 									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+							<div class="column col-md-12">
+								<!-- Phone Number input -->
+								<div class="form-group">
+									<input type="phonenumber" class="form-control" id="InputPhoneNumber" name="InputPhoneNumber" placeholder="Phone Number" required="required" data-error="Phone Number is required.">
 									<div class="help-block with-errors"></div>
 								</div>
 							</div>
